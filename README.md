@@ -1,1 +1,2 @@
-this is my readme file
+# RUST CALCULATOR
+
