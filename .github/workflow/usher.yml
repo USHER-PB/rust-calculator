@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Send Discord Notification
       env:
-        DISCORD_WEBHOOK_URL: ${{ secrets.USHER }}
+        DISCORD_WEBHOOK_URL: ${{ secrets.USHER_NOTIF }}
       run: |
         curl -H "Content-Type: application/json" \
              -X POST \
